@@ -1,0 +1,149 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Splash"');
+
+body{
+    font-family: 'Splash', cursive;
+}
+
+.container{
+    width:95%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hex-colors{
+    width: 100%;
+    text-align: center;
+}
+
+.hex-colors h1,h2{
+    font-size: 2rem;
+    text-transform: lowercase;
+    -ms-animation: colorchange 5s infinite alternate;
+    -moz-animation: colorchange 5s infinite alternate;
+    -o-animation: colorchange 5s infinite alternate; 
+    animation: colorchange 5s infinite alternate; 
+  
+}
+
+.hex-colors h2{
+    margin-top: 15%;
+    text-transform: lowercase;
+}
+
+
+@-ms-keyframes colorchange{
+    0% {
+          color: #a61d31;
+        }
+        
+        20% {
+          color: #343b06;
+        }
+        
+        40% {
+          color: #1b1b4e;
+        }
+        
+        60% {
+          color: #00b71b;
+        }
+        
+        80% {
+          color: #6485b1;
+        }
+        
+        100% {
+          color: #50062a;
+        } 
+}
+  
+  @-moz-keyframes colorchange{
+      0% {
+          color: #d81e1e;
+        }
+        
+        20% {
+          color: #eba6a6;
+        }
+        
+        40% {
+          color: #cc5656;
+        }
+        
+        60% {
+          color: #477e9f;
+        }
+        
+        80% {
+          color: #1b966f;
+        }
+        
+        100% {
+          color: #3461b6;
+        } 
+  }
+  
+  @-o-keyframes colorchange{
+      0% {
+          color: #93c4b4;
+        }
+        
+        20% {
+          color: #e5ae15;
+        }
+        
+        40% {
+          color: #3e2f87;
+        }
+        
+        60% {
+          color: #431c10;
+        }
+        
+        80% {
+          color: #171c5c;
+        }
+        
+        100% {
+          color: #a31978;
+        }  
+}
+  
+  @keyframes colorchange {
+      0% {
+          color: #d18513;
+        }
+        
+        20% {
+          color: #432a3a;
+        }
+        
+        40% {
+          color: #250d0d;
+        }
+        
+        60% {
+          color: #6e172e;
+        }
+        
+        80% {
+          color: #b0618b;
+        }
+        
+        100% {
+          color: #21666a;
+        }
+ }
+  
+  @media(max-width:480px){
+    #hex-colors h1{font-size: 1.5rem;}
+    
+    #hex-colors h2{font-size: 1.5rem;}
+  }
+  
